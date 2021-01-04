@@ -1,0 +1,85 @@
+body{
+    background-image: linear-gradient(to right,rgba(47, 0, 255, 0.213),rgba(4, 0, 255, 0.172)), url(../../images/coding.jpg);
+}
+
+.title{
+    align-self: center;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 25px;
+}
+
+.form-container{
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 20px 20px 20px 20px;
+}
+
+.form{
+    width: 700px;
+    background-color: rgba(49, 49, 49, 0.686);
+    margin-left: 300px;
+    padding: 20px 20px 20px 20px;
+}
+
+.label{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 20px 10px 10px 10px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+
+.input{
+    color: rgb(5, 5, 5);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    width:660px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+
+.select{
+    color: rgb(5, 5, 5);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    width:675px;
+    height: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+}
+
+.check-box{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.textarea{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 70px;
+    width: 670px;
+}
+
+.submit-btn{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 675px;
+    padding: 5px 5px 5px 5px;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(100, 83, 253);
+    color: white;
+}
