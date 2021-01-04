@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="title">CodeCamp Survey Form</div>
+        <div class="form-container">
+            <form class="form">
+                <label for="name" class="label">Name</label></br>
+                <input type="text" class="input" placeholder="Enter your name" name="name" required>
+                <label for="email" class="label">Email</label></br>
+                <input type="email" class="input" placeholder="Enter your email" name="email" required>
+                <label for="age" class="label">Age (Optional)</label></br>
+                <input type="text" class="input" placeholder="Enter your Age" name="age">
+                <label for="role" class="label">Which option best describes your current role?</label></br>
+                <select type="text" class="select" name="role">
+                    <option>Student</option>
+                    <option>Full time Job</option>
+                    <option>Full time learner</option>
+                    <option>Not prefer to say</option>
+                    <option>Other</option>
+                </select>
+                <label for="check" class="label">Would you recommend freeCodeCamp to a friend?</label></br>
+                <input type="checkbox" name="Definitely" value="Definitely" class="check-box">
+                <label for="Definitely" class="label"> Definitely</label><br>
+                <input type="checkbox" id="Maybe" name="Maybe" value="Maybe" class="check-box">
+                <label for="Maybe" class="label">Maybe</label><br>
+                <input type="checkbox" id="Not sure" name="Not sure" value="Not sure" class="check-box" >
+                <label for="Not sure" class="label">Not sure</label><br>
+                <label for="suggest" class="label">Any comments or suggestions?</label></br>
+                <textarea name="suggest" class="textarea" placeholder="Enter your comment here.."></textarea>
+                <input type="submit" name="submit" value="Submit" class="submit-btn">
+            </form>
+        </div>
+    </body>
+</html>
